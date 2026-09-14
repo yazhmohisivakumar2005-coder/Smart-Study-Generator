@@ -1,4 +1,4 @@
-\# 📚 Smart Study Generator Agent
+\# Smart Study Generator Agent
 
 
 
@@ -6,7 +6,7 @@ An AI-powered study assistant that transforms study materials into simple, struc
 
 
 
-\## 🎯 Problem Statement
+\# Problem Statement
 
 
 
@@ -44,7 +44,7 @@ The application uses Langflow and Google Gemini to analyze study material and ge
 
 
 
-```text
+text
 
 Study Material / PDF
 
