@@ -1,96 +1,66 @@
-\# Smart Study Generator Agent
+\# 📚 Smart Study Generator Agent
 
 
 
-An AI-powered study assistant built using Langflow and Google Gemini.
+An AI-powered study assistant that transforms study materials into simple, structured and exam-ready resources.
 
 
 
-\## Problem Statement
+\## 🎯 Problem Statement
 
 
 
-Students have study materials scattered across lecture notes, textbooks, research papers and other resources. This project converts uploaded study material into structured and exam-friendly learning resources.
+Students often have study materials scattered across lecture notes, textbooks, research papers and other online resources. It can be difficult to understand large amounts of content, identify important topics and prepare effectively for exams.
 
 
 
-\## Features
+The Smart Study Generator Agent solves this problem by analyzing uploaded study material and automatically generating personalized study resources.
 
 
 
-\- Simple summary
-
-\- Key concepts
-
-\- Important exam questions with answers
-
-\- 10 flashcards
-
-\- 3-day study plan
-
-\- Quick revision points
+\##  Solution
 
 
 
-\## Technology Stack
+The application uses Langflow and Google Gemini to analyze study material and generate:
 
 
 
-\- Langflow
+\-  Simple Summary
 
-\- Google Gemini
+\-  Key Concepts
 
-\- Python
+\-  Important Exam Questions with Answers
 
-\- PDF study materials
+\-  Flashcards
 
+\-  3-Day Study Plan
 
-
-\## Workflow
-
-
-
-Read File → Prompt → Google Generative AI → Chat Output
+\- Quick Revision Points
 
 
 
-\## How It Works
+\##  Workflow
 
 
 
-1\. Upload a PDF study material.
+```text
 
-2\. Langflow reads the content.
+Study Material / PDF
 
-3\. The Prompt instructs the AI to organize the material.
+&#x20;       ↓
 
-4\. Google Gemini analyzes the content.
+&#x20;   Read File
 
-5\. The generated study resources are displayed as output.
+&#x20;       ↓
 
+&#x20;  Prompt
 
+&#x20;       ↓
 
-\## Security
+&#x20;Google Gemini
 
+&#x20;       ↓
 
-
-API keys are not included in this repository. Users must configure their own Google Gemini API key in Langflow.
-
-
-
-\## Future Enhancements
-
-
-
-\- Personalized study plans
-
-\- Difficulty-based questions
-
-\- Interactive quizzes
-
-\- Progress tracking
-
-\- Multiple document support
-
-\- Retrieval-Augmented Generation (RAG)
+&#x20;   Chat Output
 
